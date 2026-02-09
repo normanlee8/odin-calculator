@@ -25,13 +25,17 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh
 }
 
 .container {
     display: flex;
     flex-wrap: wrap;
     max-width: 300px;
-    margin: 20px auto;
     align-items: center;
     gap: 8px;
     background-color: black;
@@ -67,7 +71,8 @@ button {
 }
 
 .digit, 
-.plus-minus{
+.plus-minus,
+.decimal {
     background-color: rgb(52, 52, 52);
 }
 
